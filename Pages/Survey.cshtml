@@ -1,0 +1,14 @@
+﻿@page
+@model survey_form_asp_net.Models.Survey
+
+<h2>Survey</h2>
+
+<form method="post">
+    <label for="Name">Your Name:</label><br>
+    <input type="text" id="Name" name="Name" value="@Model.Name"><br>
+    <label for="Email">Your Email:</label><br>
+    <input type="text" id="Email" name="Email" value="@Model.Email"><br>
+    <label for="FavoriteColor">Your Favorite Color:</label><br>
+    <input type="text" id="FavoriteColor" name="FavoriteColor" value="@Model.FavoriteColor"><br>
+    <input type="submit" value="Submit">
+</form>
